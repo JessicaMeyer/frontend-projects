@@ -11,23 +11,40 @@
 }
 
 
-.header {}
-/* hint! what do you have to add here? */
+.header {
+	background: #FF9C56;
+}
+.header:after {
+	content: "";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
 
-.logo {}
+.logo {
+	float:left;
+}
 
-.navigation {}
+.navigation {
+	float:right;
+}
 
-.sidebar {}
+.sidebar {
+	background: #FFBE56;
+	float: left;
+}
 
 .main_content {}
 /* hint! you have to contain the floated children elements. */
 
 .sub_content {
-	/* hint! */
+	background: #355163;
 }
 .sub_content_2 {
-	/* hint! */
+	background: #49708A;
 }
 
-.footer {}
+.footer {
+	clear: both;
+}
